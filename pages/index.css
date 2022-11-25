@@ -4,14 +4,47 @@
 @import url(../vendor/variables.css);
 @import url(../blocks/page/page.css);
 
-/* header */
+/* header && navbar*/
 @import url(../blocks/header/header.css);
+@import url(../blocks/navbar/navbar.css);
+@import url(../blocks/navbar/__links/navbar__links.css);
+@import url(../blocks/navbar/__link/navbar__link.css);
 
 /* main */
 @import url(../blocks/main/main.css);
 
+/* into section */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__text-block/intro__text-block.css);
+@import url(../blocks/intro/__header/intro__header.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__more-button/intro__more-button.css);
+@import url(../blocks/intro/__manufacturer-containter/intro__manufacturer-containter.css);
+@import url(../blocks/intro/__manufacturer/intro__manufacturer.css);
+@import url(../blocks/intro/__decorative-element/intro__decorative-element.css);
+@import url(../blocks/intro/__img/intro__img.css);
+
+@import url(../blocks/bike-card/bike-card.css);
+@import url(../blocks/bike-card/_type/bike-card_type_sticky.css);
+@import url(../blocks/bike-card/__img/bike-card__img.css);
+
 /* footer */
 @import url(../blocks/footer/footer.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,8 @@
+.intro__img {
+  background-image: url(../../../images/intro__background.png);
+  width: 100%;
+  max-width: 610px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}

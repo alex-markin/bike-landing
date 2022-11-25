@@ -1,0 +1,9 @@
+.intro {
+  width: 100%;
+  padding: 20px 0 0 120px;
+  display: flex;
+  justify-content: space-between;
+  gap: 250px;
+  position: relative;
+  min-height: 856px;
+}

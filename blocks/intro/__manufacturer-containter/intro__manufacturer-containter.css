@@ -1,0 +1,6 @@
+.intro__manufacturer-containter {
+  margin-top: calc(167px - 50px);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
