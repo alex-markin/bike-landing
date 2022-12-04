@@ -1,0 +1,36 @@
+.model-line__pic {
+  width: 100%;
+  max-width: 650px;
+  height: 400px;
+  position: relative;
+  z-index: 0;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .model-line__pic {
+    height: 350px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .model-line__pic {
+    /* height: 250px; */
+}
+
+  .model-line__pic:nth-last-of-type(1) {
+  display: none;
+}
+}
+
+@media screen and (max-width: 425px) {
+  .model-line__pic {
+    height: 250px;
+}
+}
+
+@media screen and (max-width: 375px) {
+  .model-line__pic {
+    height: 175px;
+}
+}

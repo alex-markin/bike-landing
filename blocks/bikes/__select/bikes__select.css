@@ -1,0 +1,27 @@
+.bikes__select {
+  width: 100%;
+  max-width: 114px;
+  height: 30px;
+  border: 1px solid #E3E3E3;
+  border-radius: 2px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14px;
+  color: var(--font-color-header-light);
+  box-sizing: border-box;
+  padding: 8px 12px;
+  appearance: none;
+  background-color: transparent;
+  background-image: url(../../../images/select_arrow.svg);
+  background-repeat: no-repeat;
+  background-position: top 12px right 12px;
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .bikes__select {
+    display: block;
+  }
+}

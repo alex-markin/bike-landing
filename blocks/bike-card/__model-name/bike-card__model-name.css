@@ -1,0 +1,21 @@
+.bike-card__model-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--font-color-header-light);
+  padding: 15px 0 0 0;
+  margin: 0;
+
+}
+
+@media screen and (max-width: 768px) {
+  .bike-card__model-name {
+    padding: 0;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+}

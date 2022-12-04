@@ -1,0 +1,11 @@
+.quote-section__author-block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+@media screen and (max-width: 425px) {
+  .quote-section__author-block {
+    gap: 4px;
+  }
+}

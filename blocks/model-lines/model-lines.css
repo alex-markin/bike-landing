@@ -1,0 +1,18 @@
+.model-lines {
+  flex-direction: column;
+  gap: 50px;
+  padding: 4.2% 0 4.2% 0;
+}
+
+@media screen and (max-width: 768px) {
+  .model-lines {
+    padding: 40px 20px 80px 0;
+    border-top: 1px solid #E3E3E3;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .model-lines {
+    padding: 40px 0px 80px 0;
+  }
+}

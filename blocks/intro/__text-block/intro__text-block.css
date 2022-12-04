@@ -4,4 +4,12 @@
   gap: 50px;
   width: 100%;
   max-width: 460px;
+  padding-top: calc(80px - 20px);
+}
+
+@media screen and (max-width: 425px) {
+  .intro__text-block {
+    gap: 40px;
+    padding: 0; 
+  }
 }

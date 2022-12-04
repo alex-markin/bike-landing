@@ -1,8 +1,16 @@
 :root {
-  --background-color-main: #000000;
-  --background-color-second: #FFFFFF;
-  --font-color-first: #FFFFFF;
-  --font-color-second: #000000;
+
+  /* light theme colors */
+  --background-color-body-light: #F4F4F4;
+  --background-color-footer-light: #EFEFEF;
+  --font-color-header-light: #151515;
+  --font-color-text-light: #222222;
+
+  /* dark theme colors */
+  --background-color-body-dark: #333333;
+  --background-color-footer-dark: #2F2F2F;
+  --font-color-header-dark: #FFFFFF;
+  --font-color-text-dark: #E6E6E6;
 }
 
 

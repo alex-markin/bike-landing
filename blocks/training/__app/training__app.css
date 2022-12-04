@@ -1,0 +1,14 @@
+.training__app {
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  color: var(--font-color-header-light);
+  transition: opacity 0.15s;
+}
+
+.training__app:hover {
+  opacity: 0.75;
+}

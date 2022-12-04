@@ -1,0 +1,12 @@
+.arrows {
+  display: flex;
+  gap: 20px;
+  grid-area: arrows;
+}
+
+@media screen and (max-width: 768px) {
+  .arrows {
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

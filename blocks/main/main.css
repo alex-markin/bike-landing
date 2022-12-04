@@ -5,12 +5,19 @@
   align-items: center;
   box-sizing: border-box;
   gap: 0;
+  padding-left: 8.33%;
 
 }
 
-/* @media screen and (max-width: 920px) {
+@media screen and (max-width: 500px) {
   .main {
-    padding: 0 19px 0 19px;
-    max-width: calc(880px - 19px * 2);
+    padding: 0 32px;
   }
-} */
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    padding: 0 18px;
+  }
+}
+

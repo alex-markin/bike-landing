@@ -1,0 +1,20 @@
+.model-line__gallery {
+  display: flex;
+  gap: 40px;
+  padding-top: calc(80px - 50px);
+  grid-area: gallery;
+}
+
+@media screen and (max-width: 1024px) {
+  .model-line__gallery {
+   padding: 0;
+   gap: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .model-line__gallery {
+   padding: 0;
+   gap: 0;
+  }
+}

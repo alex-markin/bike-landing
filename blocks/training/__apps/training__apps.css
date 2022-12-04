@@ -1,0 +1,6 @@
+.training__apps {
+  margin-top: calc(182px - 50px);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}

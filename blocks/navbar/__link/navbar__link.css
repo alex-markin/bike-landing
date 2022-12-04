@@ -3,6 +3,12 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  color: #151515;
+  color: var(--font-color-header-light);
   text-decoration: none;
+  transition: opacity 0.15s;
+
+}
+
+.navbar__link:hover {
+  opacity: 0.75;;
 }

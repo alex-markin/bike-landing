@@ -1,0 +1,8 @@
+.model-line__terrain {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  z-index: 1;
+}

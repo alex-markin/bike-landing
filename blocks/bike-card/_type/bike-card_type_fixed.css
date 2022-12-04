@@ -1,0 +1,17 @@
+.bike-card_type_fixed {
+  position: absolute;
+  width: 100%;
+  max-width: 440px;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  top: 27%;
+  right: 26%;
+  z-index: 1;
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .bike-card_type_fixed {
+    max-width: 340px;
+  }
+}

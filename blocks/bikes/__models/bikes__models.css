@@ -1,0 +1,14 @@
+.bikes__models {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 500px) {
+  .bikes__models {
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

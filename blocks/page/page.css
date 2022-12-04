@@ -1,8 +1,7 @@
 .page {
   font-family: 'Inter', Arial, sans-serif;
-  color: #151515;
   box-sizing: border-box;
-  background-color: #F4F4F4;
+  background-color: var(--background-color-body-light);
   display: flex;
   flex-direction: column;
   align-items: center;

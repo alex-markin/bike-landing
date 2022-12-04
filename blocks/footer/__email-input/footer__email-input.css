@@ -1,0 +1,13 @@
+.footer__email-input {
+  width: 100%;
+  max-width: 360px;
+  max-height: 50px;
+  padding: 11px 20px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid rgba(199, 199, 199, 0.5);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+}

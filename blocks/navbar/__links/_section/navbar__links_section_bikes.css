@@ -1,0 +1,16 @@
+.navbar__links_section_bikes {
+  gap: 40px;
+  padding-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__links_section_bikes {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar__links_section_bikes {
+    display: none;
+  }
+}

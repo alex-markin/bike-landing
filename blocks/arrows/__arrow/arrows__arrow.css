@@ -1,0 +1,14 @@
+.arrows__arrow {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 7px 16px;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: #EBEBEB;
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+
+.arrows__arrow:hover {
+  opacity: 0.6;
+}

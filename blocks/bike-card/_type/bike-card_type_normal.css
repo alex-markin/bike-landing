@@ -1,0 +1,15 @@
+.bike-card_type_normal {
+  width: 100%;
+  max-width: 380px;
+  max-height: 380px; 
+  padding: 20px; 
+}
+
+@media screen and (max-width: 500px) {
+  .bike-card_type_normal {
+    max-width: 500px;
+    max-height: 500px;
+    padding: 0;
+  }
+
+}
