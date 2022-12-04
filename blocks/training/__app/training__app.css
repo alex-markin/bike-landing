@@ -12,3 +12,10 @@
 .training__app:hover {
   opacity: 0.75;
 }
+
+@media screen and (max-width: 768px) {
+  .training__app {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

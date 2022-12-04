@@ -1,0 +1,33 @@
+.training__content-container {
+  display: grid;
+  grid-template-areas: 
+  "header pic"
+  "text pic"
+  "apps pic";
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  row-gap: 50px;
+  column-gap: 11.1%;
+}
+
+@media screen and (max-width: 1024px) {
+  .training__content-container {
+    grid-template-areas: 
+  "header pic pic pic"
+  "text pic pic pic"
+  "apps pic pic pic";
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .training__content-container {
+    grid-template-areas: 
+  "header"
+  "pic"
+  "text"
+  "apps";
+  row-gap: 40px;
+  }
+}

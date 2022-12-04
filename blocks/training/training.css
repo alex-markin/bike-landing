@@ -1,5 +1,18 @@
 .training {
   padding: 10.5% 8.33% 8.33% 0;
   display: flex;
-  gap: 11.1%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .training {
+    padding: 40px 20px 60px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .training {
+    padding: 40px 0 60px 0;
+    border-top: 1px solid #E3E3E3;
+  }
 }

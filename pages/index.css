@@ -59,15 +59,17 @@
 @import url(../blocks/arrows/__arrow/_type/arrows__arrow_type_right.css);
 
 
-
-
-
 /* bikes section */
 
 @import url(../blocks/bikes/bikes.css);
 @import url(../blocks/navbar/__links/_section/navbar__links_section_bikes.css);
 @import url(../blocks/navbar/__link/_section/navbar__link_section_bikes.css);
 @import url(../blocks/bikes/__heading/bikes__heading.css);
+
+  /* slider dots */
+  @import url(../blocks/slider-dots/slider-dots.css);
+  @import url(../blocks/slider-dots/__dot/slider-dots__dot.css);
+  @import url(../blocks/slider-dots/__dot/_active/slider-dots__dot_active.css);
 
 @import url(../blocks/bikes/__select/bikes__select.css);
 @import url(../blocks/bikes/__select-option/bikes__select-option.css);
@@ -85,7 +87,7 @@
 /* training section */
 
 @import url(../blocks/training/training.css);
-@import url(../blocks/training/__text-block/training__text-block.css);
+@import url(../blocks/training/__text-block/training__content-container.css);
 @import url(../blocks/training/__apps/training__apps.css);
 @import url(../blocks/training/__app/training__app.css);
 @import url(../blocks/training/__img/training__img.css);
@@ -105,27 +107,9 @@
 
 
 
-.slider-dots {
-  gap: 5px;
-  margin: 0 auto;
-  display: none;
-}
 
-@media screen and (max-width: 500px) {
-  .slider-dots {
-    display: flex;
-  }
-}
 
-.slider-dots__dot {
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: #CACACA;
-}
 
-.slider-dots__dot_active {
-  background: var(--font-color-header-light);
-}
+
 
 
