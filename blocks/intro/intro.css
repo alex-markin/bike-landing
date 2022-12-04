@@ -6,10 +6,18 @@
   min-height: 856px;
 }
 
+@media screen and (max-width: 768px) {
+  .intro {
+    gap: 0;
+    min-height: fit-content;
+    padding: 40px 20px 80px 0;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .intro {
     gap: 0;
     min-height: fit-content;
-    padding: 40px 0 80px 0;
+    padding: 40px 0px 80px 0;
   }
 }

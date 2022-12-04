@@ -6,3 +6,10 @@
   color: var(--font-color-text-light);
   margin: 0;
 }
+
+@media screen and (max-width: 500px) {
+  .quote-section__autor-job {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}

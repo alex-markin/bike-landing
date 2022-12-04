@@ -1,19 +1,23 @@
 .footer {
-  padding: 5.5% 8.5% 4.2% 8.33%;
+  padding: 80px 8.5% 60px 8.33%;
   background-color: var(--background-color-footer-light);
   display: flex;
   flex-direction: column;
-  gap: 37px;
+  gap: 50px;
   position: relative;
   flex-shrink: 0;
   max-width: 1440px;
 }
 
-
-
-/* @media screen and (max-width: 920px) {
+@media screen and (max-width: 500px) {
   .footer {
-    padding: 48px 19px 36px 19px;
-    max-width: calc(880px - 19px * 2);
+    padding: 60px 32px 16px 32px;
+    width: 100%;
   }
-} */
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    padding: 60px 18px 16px 18px;
+  }
+}

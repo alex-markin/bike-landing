@@ -7,9 +7,10 @@
   padding-top: calc(80px - 20px);
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .intro__text-block {
     gap: 40px;
     padding: 0; 
+    max-width: none;
   }
 }

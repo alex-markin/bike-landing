@@ -8,10 +8,10 @@
   color: var(--font-color-header-light);
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .quote-section__quote {
     font-size: 23px;
     line-height: 29px;
-
+    width: 100%;
   }
 }

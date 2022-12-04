@@ -5,3 +5,16 @@
   display: flex;
   gap: 22px;
 }
+
+@media screen and (max-width: 768px) {
+  .theme-switcher {
+    right: 55px;
+    bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .theme-switcher {
+    display: none;
+  }
+}

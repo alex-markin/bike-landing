@@ -6,3 +6,10 @@
   margin: 0;
   color: var(--font-color-header-light);
 }
+
+@media screen and (max-width: 500px) {
+  .quote-section__autor-name {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

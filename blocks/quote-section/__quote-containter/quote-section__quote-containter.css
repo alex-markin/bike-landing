@@ -1,13 +1,16 @@
 .quote-section__quote-containter {
   width: 100%;
   max-width: 470px;
+  row-gap: 40.6%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between
+  justify-content: space-between;
+  grid-area: quote;
 }
 
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 1024px) {
   .quote-section__quote-containter {
-    gap: 40px;
+    row-gap: 40px;
   }
 }

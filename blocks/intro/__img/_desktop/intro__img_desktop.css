@@ -2,7 +2,7 @@
   display: block;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .intro__img_desktop {
     display: none;
   }

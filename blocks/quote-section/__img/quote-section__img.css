@@ -1,14 +1,17 @@
 .quote-section__img {
-  width: 45.13%;
+  width: 100%;
   max-width: 650px;
-  min-height: 650px;
+  height: auto;
   object-fit: cover;
+  grid-area: pic;
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
   .quote-section__img {
-    width: 100%;
     min-height: 204px;
+    max-width: none;
+    height: 100%;
+    
   }
 }

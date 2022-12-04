@@ -1,16 +1,23 @@
 .intro__img {
-  background-image: url(../../../images/intro__background.png);
-  width: 100%;
+  width: 46.2%;
   max-width: 610px;
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-size: cover;  
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    align-self: center;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .intro__img {
-    max-width: 400px;
-    min-height: 348px;
+    width: 89.5%;
+    height: 348px;
+    align-self: center;
   }
 }
 
