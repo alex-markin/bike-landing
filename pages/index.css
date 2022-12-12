@@ -1,7 +1,7 @@
 /* vendors + fonts*/
 @import url(../vendor/normalize.css);
 @import url(../fonts/Inter/fonts.css); /*шрифт Inter */
-@import url(../vendor/variables.css);
+/* @import url(../vendor/light-theme-variables.css); */
 @import url(../blocks/html/html.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/animation/animation.css); /*анимации*/
