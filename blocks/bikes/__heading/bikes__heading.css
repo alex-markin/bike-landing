@@ -1,7 +1,7 @@
 .bikes__heading {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-end
 }
 
 @media screen and (max-width: 500px) {

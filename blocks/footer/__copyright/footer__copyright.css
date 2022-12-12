@@ -3,7 +3,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  color: #CFCFCF;
+  color: var(--font-color-footer);
   max-width: fit-content;
   margin: 0;
   padding-top: calc(100px - 50px)

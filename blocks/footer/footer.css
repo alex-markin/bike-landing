@@ -1,10 +1,9 @@
 .footer {
   padding: 80px 8.5% 60px 8.33%;
-  background-color: var(--background-color-footer-light);
+  background-color: var(--background-color-footer);
   display: flex;
   flex-direction: column;
   gap: 50px;
-  position: relative;
   flex-shrink: 0;
   max-width: 1440px;
 }
@@ -13,6 +12,7 @@
   .footer {
     padding: 60px 32px 16px 32px;
     width: 100%;
+    gap: 40px;
   }
 }
 

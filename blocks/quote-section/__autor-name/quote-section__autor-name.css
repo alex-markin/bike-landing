@@ -4,7 +4,7 @@
   font-size: 20px;
   line-height: 32px;
   margin: 0;
-  color: var(--font-color-header-light);
+  color: var(--font-color-header);
 }
 
 @media screen and (max-width: 500px) {

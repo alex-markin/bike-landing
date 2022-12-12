@@ -5,7 +5,7 @@
   font-size: 18px;
   line-height: 28px;
   text-decoration: none;
-  color: var(--font-color-header-light);
+  color: var(--font-color-header);
   transition: opacity 0.15s;
 }
 

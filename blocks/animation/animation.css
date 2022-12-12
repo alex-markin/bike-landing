@@ -1,0 +1,26 @@
+@keyframes color-change {
+  0% { 
+    background: linear-gradient(90deg, #319E75 0%, #24B47E 100%)
+  }
+  25% {
+    background: linear-gradient(90deg, #319E75 25%, #24B47E 75%);
+  }
+  50% {
+    background: linear-gradient(90deg, #319E75 50%, #24B47E 50%);
+  }
+  75% {
+    background: linear-gradient(90deg, #319E75 75%, #24B47E 75%);
+  }
+  100% {
+    background: linear-gradient(90deg, #319E75 100%, #24B47E 100%);
+  }
+};
+
+@keyframes opacityRise {
+  from {
+  opacity: 0;
+  }
+  to {
+  opacity: 1;
+  } 
+};

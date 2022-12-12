@@ -1,7 +1,4 @@
 .theme-switcher {
-  position: absolute;
-  right: 113.5px;
-  bottom: 70px;
   display: flex;
   gap: 22px;
 }

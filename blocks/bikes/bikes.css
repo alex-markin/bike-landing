@@ -1,7 +1,7 @@
 .bikes {
   flex-direction: column;
   width: 100%;
-  padding: 4.2% 8.33% 4.2% 0;
+  padding: 60px 9.09% 60px 0;
   gap: 120px;
 }
 

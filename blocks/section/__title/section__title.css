@@ -6,7 +6,7 @@
   letter-spacing: -0.5px;
   margin: 0;
   text-align: left;
-  color: var(--font-color-header-light);
+  color: var(--font-color-header);
   letter-spacing: -0.5px;
   grid-area: header;
 }

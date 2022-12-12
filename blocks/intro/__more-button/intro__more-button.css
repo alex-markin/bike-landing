@@ -8,6 +8,16 @@
   text-align: center;
   padding: 16px 0;
   box-sizing: border-box;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.intro__more-button:hover {
+  animation: color-change 3s linear 0s 1 normal forwards;
 }
 
 @media screen and (max-width: 425px) {
@@ -15,3 +25,4 @@
     max-width: none;
   }
 }
+

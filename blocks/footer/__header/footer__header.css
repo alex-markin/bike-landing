@@ -4,4 +4,5 @@
   line-height: 32px;
   max-width: 229px;
   margin: 0;
+  color: var(--font-color-header);
 }

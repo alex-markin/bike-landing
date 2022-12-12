@@ -2,7 +2,10 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/Inter/fonts.css); /*шрифт Inter */
 @import url(../vendor/variables.css);
+@import url(../blocks/html/html.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/animation/animation.css); /*анимации*/
+
 
 /* ПРИМЕЧАНИЕ ДЛЯ РЕВЬЮЕРА: проект на 100% не закончен. Из-за недостатка времени отправляю в текущем состоянии. Выполнен десктоп + адаптив за исключением header в адаптиве. Прошу дать комментарии без учёта функционала JS.*/
 
@@ -12,7 +15,20 @@
 @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/navbar/__links/navbar__links.css);
 @import url(../blocks/navbar/__link/navbar__link.css);
-@import url(../blocks/navbar/__link/_active/navbar__link_active.css);
+@import url(../blocks/navbar/_mobile/navbar_mobile.css);
+@import url(../blocks/navbar/__links/_mobile/navbar__links_mobile.css);
+@import url(../blocks/navbar/__link/_mobile/navbar__link_mobile.css);
+@import url(../blocks/header/__menu-btn/header__menu-btn.css);
+@import url(../blocks/header/__btn-element/header__btn-element.css);
+@import url(../blocks/header/__btn-element/_active/header__btn-element_active.css);
+@import url(../blocks/page/_lock/page_lock.css);
+
+
+/* mobile menu popup */
+@import url(../blocks/mobile-menu/mobile-menu.css);
+@import url(../blocks/mobile-menu/_active/mobile-menu_active.css);
+
+
 
 /* main */
 @import url(../blocks/main/main.css);
@@ -65,9 +81,11 @@
 /* bikes section */
 
 @import url(../blocks/bikes/bikes.css);
-@import url(../blocks/navbar/__links/_section/navbar__links_section_bikes.css);
-@import url(../blocks/navbar/__link/_section/navbar__link_section_bikes.css);
 @import url(../blocks/bikes/__heading/bikes__heading.css);
+@import url(../blocks/bikes/__nav/bikes__nav.css);
+@import url(../blocks/bikes/__nav-links/bikes__nav-links.css);
+@import url(../blocks/bikes/__nav-link/bikes__nav-link.css);
+@import url(../blocks/bikes/__nav-link/_active/bikes__nav-link_active.css);
 
   /* slider dots */
   @import url(../blocks/slider-dots/slider-dots.css);
@@ -98,15 +116,28 @@
 
 /* footer */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__header/footer__header.css);
 @import url(../blocks/footer/__email-input/footer__email-input.css);
 
-@import url(../blocks/theme-switcher/theme-switcher.css);
-@import url(../blocks/theme-switcher/__light/theme_switcher__light.css);
-@import url(../blocks/theme-switcher/__dark/theme_switcher__dark.css);
-@import url(../blocks/theme-switcher/__switcher-field/theme_switcher__switcher-field.css);
-@import url(../blocks/theme-switcher/__switcher/theme_switcher__switcher.css);
-@import url(../blocks/footer/__logo/footer__logo.css);
+  /* theme-switcher */
+  @import url(../blocks/theme-switcher/theme-switcher.css);
+  @import url(../blocks/theme-switcher/__light/theme_switcher__light.css);
+  @import url(../blocks/theme-switcher/__dark/theme_switcher__dark.css);
+  @import url(../blocks/theme-switcher/__switcher-field/theme_switcher__switcher-field.css);
+  @import url(../blocks/theme-switcher/__switcher/theme_switcher__switcher.css);
+  @import url(../blocks/theme-switcher/_mobile/theme-switcher_mobile.css);
+
+  /* footer-logo */
+  @import url(../blocks/footer/__logo/footer__logo.css);
+
+
+ 
+
+ 
+ 
+
+  
 
 
