@@ -90,8 +90,8 @@ function toggleSwitcher() {
 
 function switchTheme() {
   const theme = document.querySelector('#theme');
-  if (theme.getAttribute('href') == '/vendor/light-theme-variables.css') {
-    theme.href = '/vendor/dark-theme-variables.css';
+  if (theme.getAttribute('href') == './vendor/light-theme-variables.css') {
+    theme.href = './vendor/dark-theme-variables.css';
     leftArrow.style.setProperty('background-image', 'url(../../../../images/left-arrow_white.svg)')
     rightArrow.style.setProperty('background-image', 'url(../../../../images/rigt-arrow_white.svg)')
   } else {
