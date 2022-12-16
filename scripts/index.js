@@ -95,7 +95,7 @@ function switchTheme() {
     leftArrow.style.setProperty('background-image', 'url(../../../../images/left-arrow_white.svg)')
     rightArrow.style.setProperty('background-image', 'url(../../../../images/rigt-arrow_white.svg)')
   } else {
-    theme.href = '/vendor/light-theme-variables.css';
+    theme.href = './vendor/light-theme-variables.css';
     leftArrow.style.setProperty('background-image', 'url(../../../../images/arrow-left.svg)')
     rightArrow.style.setProperty('background-image', 'url(../../../../images/arrow-right.svg)')
   };
