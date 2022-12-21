@@ -75,7 +75,10 @@
 @import url(../blocks/arrows/arrows.css);
 @import url(../blocks/arrows/__arrow/arrows__arrow.css);
 @import url(../blocks/arrows/__arrow/_type/arrows__arrow_type_left.css);
+@import url(../blocks/arrows/__arrow/_type/arrows__arrow_type_left-white.css);
 @import url(../blocks/arrows/__arrow/_type/arrows__arrow_type_right.css);
+@import url(../blocks/arrows/__arrow/_type/arrows__arrow_type_right-white.css);
+
 
 
 /* bikes section */

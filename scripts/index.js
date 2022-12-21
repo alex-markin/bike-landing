@@ -92,12 +92,12 @@ function switchTheme() {
   const theme = document.querySelector('#theme');
   if (theme.getAttribute('href') == './vendor/light-theme-variables.css') {
     theme.href = './vendor/dark-theme-variables.css';
-    leftArrow.style.setProperty('background-image', 'url(../../../../images/left-arrow_white.svg)')
-    rightArrow.style.setProperty('background-image', 'url(../../../../images/rigt-arrow_white.svg)')
+    leftArrow.classList.toggle('arrows__arrow_type_left-white');
+    rightArrow.classList.toggle('arrows__arrow_type_right-white');
   } else {
     theme.href = './vendor/light-theme-variables.css';
-    leftArrow.style.setProperty('background-image', 'url(../../../../images/arrow-left.svg)')
-    rightArrow.style.setProperty('background-image', 'url(../../../../images/arrow-right.svg)')
+    leftArrow.classList.toggle('arrows__arrow_type_left-white');
+    rightArrow.classList.toggle('arrows__arrow_type_right-white');
   };
 }
 
