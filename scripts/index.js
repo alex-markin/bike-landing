@@ -23,22 +23,13 @@ const bikeLine = [
 const modelLine = document.querySelector('.model-line');
 const arrowLeft = modelLine.querySelector('.arrows__arrow_type_left');
 const arrowRight = modelLine.querySelector('.arrows__arrow_type_right');
+const footerLogo = document.querySelector('.footer__logo');
 const lineName = modelLine.querySelector('.section__title');
 const lineText = modelLine.querySelector('.section__text');
 const linePics = modelLine.querySelectorAll('.model-line__pic')
 let current = 0;
 
 
-// function changeLine(i) {
-//   lineName.textContent = bikeLine[i].name;
-//   lineText.textContent = bikeLine[i].text;
-//   linePics[0].src = bikeLine[i].firstImg;
-//   linePics[1].src = bikeLine[i].secondImg;
-//   current++;
-// }
-
-// arrowRight.addEventListener('click', changeLine(1));
-// console.log(bikeLine[0].firstImg);
 
 
 
@@ -76,15 +67,16 @@ navLink.forEach(item => {
 
 // light-dark theme switcher
 
-const themeSwitchers = document.querySelectorAll('.theme_switcher__switcher');
-const themeSwitcherFields = document.querySelectorAll('.theme_switcher__switcher-field');
+const themeSwitchers = document.querySelectorAll('.theme-switcher__switcher');
+const themeSwitcherFields = document.querySelectorAll('.theme-switcher__switcher-field');
 const root = document.documentElement;
 const leftArrow = document.querySelector('.arrows__arrow_type_left');
 const rightArrow = document.querySelector('.arrows__arrow_type_right');
+const bikesSelector = document.querySelector('.bikes__select');
 
 function toggleSwitcher() {
   themeSwitchers.forEach(switcher => {
-    switcher.classList.toggle('theme_switcher__switcher_dark');
+    switcher.classList.toggle('theme-switcher__switcher_dark');
   });
 }
 
@@ -94,10 +86,14 @@ function switchTheme() {
     theme.href = './vendor/dark-theme-variables.css';
     leftArrow.classList.toggle('arrows__arrow_type_left-white');
     rightArrow.classList.toggle('arrows__arrow_type_right-white');
+    footerLogo.classList.toggle('footer__logo_theme_dark');
+    bikesSelector.classList.toggle('bikes__select_theme_black');
   } else {
     theme.href = './vendor/light-theme-variables.css';
     leftArrow.classList.toggle('arrows__arrow_type_left-white');
     rightArrow.classList.toggle('arrows__arrow_type_right-white');
+    footerLogo.classList.toggle('footer__logo_theme_dark');
+    bikesSelector.classList.toggle('bikes__select_theme_black');
   };
 }
 

@@ -1,14 +1,9 @@
 /* vendors + fonts*/
 @import url(../vendor/normalize.css);
 @import url(../fonts/Inter/fonts.css); /*шрифт Inter */
-/* @import url(../vendor/light-theme-variables.css); */
 @import url(../blocks/html/html.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/animation/animation.css); /*анимации*/
-
-
-/* ПРИМЕЧАНИЕ ДЛЯ РЕВЬЮЕРА: проект на 100% не закончен. Из-за недостатка времени отправляю в текущем состоянии. Выполнен десктоп + адаптив за исключением header в адаптиве. Прошу дать комментарии без учёта функционала JS.*/
-
 
 /* header && navbar*/
 @import url(../blocks/header/header.css);
@@ -29,9 +24,9 @@
 @import url(../blocks/mobile-menu/_active/mobile-menu_active.css);
 
 
-
 /* main */
 @import url(../blocks/main/main.css);
+
 
 /* section classes (repeatable) */
 @import url(../blocks/section/section.css);
@@ -50,6 +45,7 @@
 @import url(../blocks/intro/__img/_desktop/intro__img_desktop.css);
 @import url(../blocks/intro/__img/_mobile/intro__img_mobile.css);
 
+
 /* quote section */
 @import url(../blocks/quote-section/quote-section.css);
 @import url(../blocks/quote-section/__img/quote-section__img.css);
@@ -61,17 +57,15 @@
 
 
 /* model-lines section */
-
 @import url(../blocks/model-lines/model-lines.css);
 @import url(../blocks/model-line/model-line.css);
 @import url(../blocks/model-line/__gallery/model-line__gallery.css);
 @import url(../blocks/model-line/__pic/model-line__pic.css);
-
 @import url(../blocks/model-line/__pic/_type/model-line__pic_type_chaussee.css);
-
 @import url(../blocks/model-line/__terrain/model-line__terrain.css);
 @import url(../blocks/model-line/__terrain/_type/model-line__terrain_type_chaussee.css);
 
+/* arrows */
 @import url(../blocks/arrows/arrows.css);
 @import url(../blocks/arrows/__arrow/arrows__arrow.css);
 @import url(../blocks/arrows/__arrow/_type/arrows__arrow_type_left.css);
@@ -80,9 +74,7 @@
 @import url(../blocks/arrows/__arrow/_type/arrows__arrow_type_right-white.css);
 
 
-
 /* bikes section */
-
 @import url(../blocks/bikes/bikes.css);
 @import url(../blocks/bikes/__heading/bikes__heading.css);
 @import url(../blocks/bikes/__nav/bikes__nav.css);
@@ -90,26 +82,25 @@
 @import url(../blocks/bikes/__nav-link/bikes__nav-link.css);
 @import url(../blocks/bikes/__nav-link/_active/bikes__nav-link_active.css);
 
-  /* slider dots */
-  @import url(../blocks/slider-dots/slider-dots.css);
-  @import url(../blocks/slider-dots/__dot/slider-dots__dot.css);
-  @import url(../blocks/slider-dots/__dot/_active/slider-dots__dot_active.css);
+/* slider dots */
+@import url(../blocks/slider-dots/slider-dots.css);
+@import url(../blocks/slider-dots/__dot/slider-dots__dot.css);
+@import url(../blocks/slider-dots/__dot/_active/slider-dots__dot_active.css);
 
 @import url(../blocks/bikes/__select/bikes__select.css);
 @import url(../blocks/bikes/__select-option/bikes__select-option.css);
-
+@import url(../blocks/bikes/__select/_theme_black/bikes__select_theme_black.css.css);
 @import url(../blocks/bikes/__models/bikes__models.css);
 @import url(../blocks/bikes/__model/bikes__model.css);
 
-  /* bike-card blocks */
-  @import url(../blocks/bike-card/bike-card.css);
-  @import url(../blocks/bike-card/_type/bike-card_type_fixed.css);
-  @import url(../blocks/bike-card/_type/bike-card_type_normal.css);
-  @import url(../blocks/bike-card/__model-name/bike-card__model-name.css);
+/* bike-card blocks */
+@import url(../blocks/bike-card/bike-card.css);
+@import url(../blocks/bike-card/_type/bike-card_type_fixed.css);
+@import url(../blocks/bike-card/_type/bike-card_type_normal.css);
+@import url(../blocks/bike-card/__model-name/bike-card__model-name.css);
 
 
 /* training section */
-
 @import url(../blocks/training/training.css);
 @import url(../blocks/training/__text-block/training__content-container.css);
 @import url(../blocks/training/__apps/training__apps.css);
@@ -123,17 +114,18 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__header/footer__header.css);
 @import url(../blocks/footer/__email-input/footer__email-input.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__logo/_theme/footer__logo_theme_dark.css);
 
-  /* theme-switcher */
-  @import url(../blocks/theme-switcher/theme-switcher.css);
-  @import url(../blocks/theme-switcher/__light/theme_switcher__light.css);
-  @import url(../blocks/theme-switcher/__dark/theme_switcher__dark.css);
-  @import url(../blocks/theme-switcher/__switcher-field/theme_switcher__switcher-field.css);
-  @import url(../blocks/theme-switcher/__switcher/theme_switcher__switcher.css);
-  @import url(../blocks/theme-switcher/_mobile/theme-switcher_mobile.css);
 
-  /* footer-logo */
-  @import url(../blocks/footer/__logo/footer__logo.css);
+/* theme-switcher */
+@import url(../blocks/theme-switcher/theme-switcher.css);
+@import url(../blocks/theme-switcher/__light/theme-switcher__light.css);
+@import url(../blocks/theme-switcher/__dark/theme-switcher__dark.css);
+@import url(../blocks/theme-switcher/__switcher-field/theme_switcher__switcher-field.css);
+@import url(../blocks/theme-switcher/__switcher/theme-switcher__switcher.css);
+@import url(../blocks/theme-switcher/_mobile/theme-switcher_mobile.css);
+
 
 
  

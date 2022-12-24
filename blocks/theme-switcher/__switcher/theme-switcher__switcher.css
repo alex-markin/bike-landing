@@ -1,4 +1,4 @@
-.theme_switcher__switcher {
+.theme-switcher__switcher {
   width: 20px;
   height: 20px;
   background: #24B47E;
@@ -7,6 +7,6 @@
   transition: all 1s;
 }
 
-.theme_switcher__switcher_dark {
+.theme-switcher__switcher_dark {
   transform: translateX(20px);
 }
