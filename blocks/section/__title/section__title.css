@@ -9,6 +9,7 @@
   color: var(--font-color-header);
   letter-spacing: -0.5px;
   grid-area: header;
+
 }
 
 @media screen and (max-width: 768px) {

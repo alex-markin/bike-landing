@@ -3,6 +3,7 @@
   gap: 40px;
   padding-top: calc(80px - 50px);
   grid-area: gallery;
+  position: relative;
 }
 
 @media screen and (max-width: 1024px) {

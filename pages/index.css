@@ -61,9 +61,8 @@
 @import url(../blocks/model-line/model-line.css);
 @import url(../blocks/model-line/__gallery/model-line__gallery.css);
 @import url(../blocks/model-line/__pic/model-line__pic.css);
-@import url(../blocks/model-line/__pic/_type/model-line__pic_type_chaussee.css);
 @import url(../blocks/model-line/__terrain/model-line__terrain.css);
-@import url(../blocks/model-line/__terrain/_type/model-line__terrain_type_chaussee.css);
+
 
 /* arrows */
 @import url(../blocks/arrows/arrows.css);
@@ -92,6 +91,7 @@
 @import url(../blocks/bikes/__select/_theme_black/bikes__select_theme_black.css.css);
 @import url(../blocks/bikes/__models/bikes__models.css);
 @import url(../blocks/bikes/__model/bikes__model.css);
+
 
 /* bike-card blocks */
 @import url(../blocks/bike-card/bike-card.css);

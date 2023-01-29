@@ -1,6 +1,7 @@
 .bikes__model {
   width: 100%;
   max-width: 380px;
+  transition: opacity 0.5s;
 }
 
 @media screen and (max-width: 500px) {

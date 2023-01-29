@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./vendor/light-theme-variables.css" rel="stylesheet" id="theme">
-  <link href="./pages/index.css" rel="stylesheet">
   <title>Велосипеды</title>
+  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./vendor/light-theme-variables.css" id="theme">
 </head>
 
 <body class="page">
@@ -80,14 +81,12 @@
     <!-- model-lines section -->
     <section id="model-lines" class=" section model-lines">
       <div class="model-line">
-        <h2 class="section__title">Шоссе</h2>
-        <p class="section__text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы
-          или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+        <h2 class="section__title"></h2>
+        <p class="section__text"></p>
         <div class="model-line__gallery">
-          <div class="model-line__pic model-line__pic_type_chaussee">
-            <div class="model-line__terrain model-line__terrain_type_chaussee"></div>
-          </div>
-          <div class="model-line__pic model-line__pic_type_chaussee"></div>
+          <img class="model-line__pic" src="">
+          <img class="model-line__pic" src=""></img>
+          <img class="model-line__terrain" src=""></img>
         </div>
         <div class="arrows">
           <div class="arrows__arrow arrows__arrow_type_left"></div>
@@ -103,16 +102,16 @@
 
         <nav class="bikes__nav">
           <ul class="bikes__nav-links">
-            <li><a class="bikes__nav-link bikes__nav-link_active" href="#">Шоссе</a></li>
-            <li><a class="bikes__nav-link" href="#">Грэвел</a></li>
-            <li><a class="bikes__nav-link" href="#">TT</a></li>
+            <li><a class="bikes__nav-link bikes__nav-link_active">Шоссе</a></li>
+            <li><a class="bikes__nav-link">Грэвел</a></li>
+            <li><a class="bikes__nav-link">TT</a></li>
           </ul>
         </nav>
 
         <select class="bikes__select">
-          <option class="bikes__select-option">Шоссе</option>
-          <option class="bikes__select-option">Грэвел</option>
-          <option class="bikes__select-option">ТТ</option>
+          <option value = "Шоссе" class="bikes__select-option">Шоссе</option>
+          <option value = "Грэвел" class="bikes__select-option">Грэвел</option>
+          <option value = "TT" class="bikes__select-option">TT</option>
         </select>
       </div>
       <div class="bikes__models">
@@ -185,7 +184,14 @@
       <div class="footer__logo"></div>
     </div>
   </footer>
-  <script src="./scripts/index.js"></script>
+  <script type="module" src="./index.js"></script>
+  <script type="module" src="./components/bikeTypes.js"></script>
+  <script type="module" src="./components/globalConsts.js"></script>
+  <script type="module" src="./components/openMobileMenu.js"></script>
+  <script type="module" src="./components/swithTheme.js"></script>
+  <script type="module" src="./components/slider.js"></script>
+  <script type="module" src="./components/handleBikeSelection.js"></script>
+
 </body>
 
 </html>
