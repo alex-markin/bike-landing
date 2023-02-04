@@ -1,7 +1,7 @@
 # Bikes Project
 
 ## Description:
-A landing page project designed to show the realisation of the next funtionality:
+A landing page project designed to show the realisation of the next functionality:
 
 ## Functionality:
 * Responsive web design
