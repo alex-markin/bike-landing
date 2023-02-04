@@ -34,3 +34,4 @@ export const bikesNav = document.querySelectorAll('.bikes__nav-link');
 export const bikesSelect = document.querySelectorAll('.bikes__select-option');
 
 export const bikeModels = document.querySelectorAll('.bikes__model');
+export const sliderDots = document.querySelectorAll('.slider-dots__dot');

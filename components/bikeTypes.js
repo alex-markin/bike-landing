@@ -2,9 +2,9 @@
 
 export const modelList = [
   {
-    model: "Шоссе",
+    model: "Road",
     description:
-      "На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.",
+      "On a road bike, you can ride on asphalt on different gradients: be it mountains or plains. The races are held in a team peloton, but you can train on your own.",
     background: {
       background1: "./images/chaussee1.png",
       background2: "./images/chaussee2.png",
@@ -29,9 +29,9 @@ export const modelList = [
     },
   },
   {
-    model: "Грэвел",
+    model: "Gravel",
     description:
-      "Грэвел похож на шоссейный велосипед, но конструкция рамы немного отличается, и на нём стоят более широкие покрышки, всё для того чтобы проехать по лёгкому бездорожью.",
+      "The Gravel is similar to a road bike, but the frame design is slightly different, and there are wider tires on it, all in order to drive on light off-road.",
     background: {
       background1: "./images/gravel1.png",
       background2: "./images/gravel2.png",
@@ -59,7 +59,7 @@ export const modelList = [
   {
     model: "TT",
     description:
-      "TT — это велосипед для триатлона или раздельного старта, гооняют на таком велике только по равнинному асфальту, велик очень быстрый и аэродинамичный.",
+      "TT is a bike for a triathlon or a separate start, they drive on such a bike only on flat asphalt, the bike is very fast and aerodynamic.",
     background: {
       background1: "./images/tt1.png",
       background2: "./images/tt2.png",

@@ -19,15 +19,15 @@ function switchTheme() {
   
   if (theme.getAttribute('href') == lightTheme) {
     theme.href = darkTheme;
-    arrowLeft.classList.toggle('arrows__arrow_type_left-white');
-    arrowRight.classList.toggle('arrows__arrow_type_right-white');
-    footerLogo.classList.toggle('footer__logo_theme_dark');
-    bikesSelector.classList.toggle('bikes__select_theme_black');
+    arrowLeft.classList.add('arrows__arrow_type_left-white');
+    arrowRight.classList.add('arrows__arrow_type_right-white');
+    footerLogo.classList.add('footer__logo_theme_dark');
+    bikesSelector.classList.add('bikes__select_theme_black');
   } else {
     theme.href = lightTheme;
-    arrowLeft.classList.toggle('arrows__arrow_type_left-white');
-    arrowRight.classList.toggle('arrows__arrow_type_right-white');
-    footerLogo.classList.toggle('footer__logo_theme_dark');
-    bikesSelector.classList.toggle('bikes__select_theme_black');
+    arrowLeft.classList.remove('arrows__arrow_type_left-white');
+    arrowRight.classList.remove('arrows__arrow_type_right-white');
+    footerLogo.classList.remove('footer__logo_theme_dark');
+    bikesSelector.classList.remove('bikes__select_theme_black');
   };
 }
